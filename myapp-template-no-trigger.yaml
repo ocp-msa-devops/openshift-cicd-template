@@ -121,7 +121,7 @@ objects:
             value: kJZLvfQr3hZg
           - name: JGROUPS_CLUSTER_PASSWORD
             value: kJZLvfQr3hZg
-          image: docker-registry.default.svc:5000/cicd-monolith-858d/${APPLICATION_NAME}:latest
+          image: docker-registry.default.svc:5000/myapp/${APPLICATION_NAME}:latest
           imagePullPolicy: Always
           livenessProbe:
             failureThreshold: 3
