@@ -3,6 +3,13 @@ kind: Template
 labels:
   template: myapp-eap71-no-trigger
 metadata:
+  annotations:
+    description: An example EAP 7 application for myapp.
+    iconClass: icon-eap
+    openshift.io/display-name: Myapp EAP 7.1 no trigger
+    tags: eap,javaee,java,jboss
+    template.openshift.io/long-description: This template defines resources needed to develop myapp.
+    version: "1.0"
   name: myapp-eap71-no-trigger
 objects:
 - apiVersion: v1
