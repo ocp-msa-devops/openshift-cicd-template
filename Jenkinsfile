@@ -4,7 +4,7 @@ node('maven') {
   // injection of environment variables is not done so set them here...
   def sourceRef = "eap-7"
   def sourceUrl = "https://github.com/ocp-msa-devops/openshift-tasks.git"
-  def devProject = "cicd-monolith-858d"
+  def devProject = "dev"
   def applicationName = "myapp-tasks"
 
   stage 'build'
